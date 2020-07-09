@@ -4,6 +4,8 @@ import sys
 import csv
 import librosa
 
+__author__ = "Tijs Rozenbroek"
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="ATCOSIM dataset preparation.")
     parser.add_argument("--csvsrc", help="fulldata.csv source directory")

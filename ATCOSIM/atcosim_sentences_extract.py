@@ -5,6 +5,7 @@ import csv
 import numpy as np
 import random
 
+__author__ = "Tijs Rozenbroek"
 
 def shuffle_and_write(lines):
     random.Random(15400031944529420895).shuffle(lines)

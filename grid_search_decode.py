@@ -1,6 +1,8 @@
 import os
 import subprocess
 
+__author__ = "Tijs Rozenbroek"
+
 if __name__ == "__main__":
     lmweights = [0.1, 0.5, 1.0, 1.5, 2.0, 4.0]
     wordscores = [0.1, 0.5, 1.0, 1.5, 2.0, 4.0]

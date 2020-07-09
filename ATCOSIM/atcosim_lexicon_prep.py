@@ -2,6 +2,8 @@ import os
 import argparse
 import sys
 
+__author__ = "Tijs Rozenbroek"
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="ATCOSIM lexicon preparation.")
     parser.add_argument("--src", help="wordlist.txt source directory")
