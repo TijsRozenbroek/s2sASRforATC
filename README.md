@@ -4,7 +4,7 @@ Scripts, network architectures and config files used for the BSc thesis project 
 In the w2l++ folder, the networks for wav2letter++ that were made for the thesis project can be found. Additionally, some example configuration files and the tokens file for wav2letter++ are provided.
 
 The following text is a slightly adapted version of the appendix that was included with the thesis. It explains some of the logic and how to run the scripts.
-## Appendix
+# Appendix
 Here I will explain some of the scripts that were created for several purposes, amongst other things to extract data from the corpora, to correct commonly occurring errors and to homogenise the corpora.
 The scripts that were created were all written in the Python programming language, specifically Python 3.7. They were designed to be run through a terminal, and be compatible with multiple operating systems. They were tested and confirmed to work in a PyCharm terminal in Windows 10 and a terminal in Ubuntu 18.04. There are some common dependencies, such as NumPy and the csv library.
 The example commands that can be used to run the scripts in Ubuntu terminals all assume that Python 3.7 is used. Compatibility with other version of Python has not been tested.
